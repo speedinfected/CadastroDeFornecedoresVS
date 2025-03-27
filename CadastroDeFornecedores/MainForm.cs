@@ -11,7 +11,6 @@ namespace WindowsFormsApp1
         private readonly IServiceFactory _serviceFactory;
 
         public MainForm()
-
         {
             InitializeComponent();
             _serviceFactory = new ServiceFactory();
@@ -37,7 +36,7 @@ namespace WindowsFormsApp1
                 dataGridViewFornecedores.DataSource = _fornecedorService.ListarFornecedores();
                 dataGridViewFornecedores.AutoResizeColumns();
                 dataGridViewFornecedores.ReadOnly = true;
-                AtualizarEstadoBotoes(); // Atualiza os botões após carregar
+                AtualizarEstadoBotoes(); 
             }
             catch (Exception ex)
             {
@@ -45,7 +44,7 @@ namespace WindowsFormsApp1
                                 "Erro de Conexão",
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Error);
-                AtualizarEstadoBotoes(); // Atualiza mesmo em caso de erro
+                AtualizarEstadoBotoes();
             }
         }
 
@@ -54,155 +53,75 @@ namespace WindowsFormsApp1
             AtualizarEstadoBotoes();
         }
 
-
         private void btnEditar_Click(object sender, EventArgs e)
-
         {
-
             if (dataGridViewFornecedores.SelectedRows.Count == 0)
-
             {
-
                 MessageBox.Show("Selecione um fornecedor para editar.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
                 return;
-
             }
-
-
 
             int id = Convert.ToInt32(dataGridViewFornecedores.SelectedRows[0].Cells["Id"].Value);
-
             var cadastroForm = new CadastroForm(_serviceFactory, id); // Usando o novo construtor
-
             if (cadastroForm.ShowDialog() == DialogResult.OK)
-
             {
-
                 CarregarFornecedores();
-
             }
-
         }
-
-
 
         private void btnExcluir_Click(object sender, EventArgs e)
-
         {
-
             if (dataGridViewFornecedores.SelectedRows.Count == 0)
-
             {
-
                 MessageBox.Show("Selecione um fornecedor para excluir.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
                 return;
-
             }
-
-
 
             if (MessageBox.Show("Tem certeza que deseja excluir este fornecedor?", "Confirmação",
-
                 MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-
             {
-
                 int id = Convert.ToInt32(dataGridViewFornecedores.SelectedRows[0].Cells["Id"].Value);
-
                 try
-
                 {
-
                     _fornecedorService.ExcluirFornecedor(id);
-
                     CarregarFornecedores();
-
                     MessageBox.Show("Fornecedor excluído com sucesso.", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
                 }
-
                 catch (Exception ex)
-
                 {
-
                     MessageBox.Show($"Erro ao excluir fornecedor: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
                 }
-
             }
-
         }
-
-
 
         private void btnBuscarCNPJ_Click(object sender, EventArgs e)
-
         {
-
             try
-
             {
-
                 var cnpjForm = new BuscarCNPJForm(_serviceFactory);
-
                 if (cnpjForm.ShowDialog() == DialogResult.OK && cnpjForm.DadosFornecedor != null)
-
-                {
-
-                    // Usando o construtor que aceita dynamic
-
+                {               
                     var cadastroForm = new CadastroForm(_serviceFactory, cnpjForm.DadosFornecedor);
-
-
-
                     if (cadastroForm.ShowDialog() == DialogResult.OK)
-
                     {
-
                         CarregarFornecedores();
-
-                        MessageBox.Show("Fornecedor cadastrado com sucesso!", "Sucesso",
-
-                            MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                        MessageBox.Show("Fornecedor cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
-
                 }
-
             }
-
             catch (Exception ex)
-
             {
-
-                MessageBox.Show($"Erro ao buscar CNPJ: {ex.Message}", "Erro",
-
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-
+                MessageBox.Show($"Erro ao buscar CNPJ: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
         }
-
-
 
         private void bntNovo_Click(object sender, EventArgs e)
-
         {
-
             var cadastroForm = new CadastroForm(_serviceFactory);
-
             if (cadastroForm.ShowDialog() == DialogResult.OK)
-
             {
-
                 CarregarFornecedores();
-
             }
-
         }
-
     }
-
 }

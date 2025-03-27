@@ -18,12 +18,9 @@ namespace WindowsFormsApp1
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
             Application.ApplicationExit += (s, e) => {
-
                 if (DatabaseSingleton.Instance != null)
                     DatabaseSingleton.Instance.Dispose();
             };
         }
-
     }
-
 }
