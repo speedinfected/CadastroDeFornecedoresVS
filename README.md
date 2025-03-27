@@ -109,11 +109,10 @@ CREATE TABLE fornecedores (...);
 
     ---
  ## 📦 Estrutura do Código
-   
+
     └── CadastroDeFornecedoresVS/
      ├──CadastroDeFornecedores/
       ├── Services/
-       │   ├── AbstractFactory.cs      # Forncedor dos Serviços
        │   ├── CNPJService.cs          # Consulta CNPJ via API
        │   ├── FornecedorService.cs    # Lógica de negócios
        │   ├── Logger.cs               # Registro de logs
