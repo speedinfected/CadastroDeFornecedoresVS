@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CadastroDeFornecedores
+namespace WindowsFormsApp1
 {
     internal static class Program
     {
@@ -17,6 +17,13 @@ namespace CadastroDeFornecedores
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
+            Application.ApplicationExit += (s, e) => {
+
+                if (DatabaseSingleton.Instance != null)
+                    DatabaseSingleton.Instance.Dispose();
+            };
         }
+
     }
+
 }

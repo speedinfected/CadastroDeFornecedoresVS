@@ -42,4 +42,6 @@ C:\Users\SPEED\Desktop\CadastroDeFornecedoresVS\CadastroDeFornecedores\bin\Debug
 C:\Users\SPEED\Desktop\CadastroDeFornecedoresVS\CadastroDeFornecedores\obj\Debug\Cadastro.AD2E7DCD.Up2Date
 C:\Users\SPEED\Desktop\CadastroDeFornecedoresVS\CadastroDeFornecedores\obj\Debug\CadastroDeFornecedores.exe
 C:\Users\SPEED\Desktop\CadastroDeFornecedoresVS\CadastroDeFornecedores\obj\Debug\CadastroDeFornecedores.pdb
-C:\Users\SPEED\Desktop\CadastroDeFornecedoresVS\CadastroDeFornecedores\obj\Debug\CadastroDeFornecedores.MainForm.resources
+C:\Users\SPEED\Desktop\CadastroDeFornecedoresVS\CadastroDeFornecedores\obj\Debug\WindowsFormsApp1.MainForm.resources
+C:\Users\SPEED\Desktop\CadastroDeFornecedoresVS\CadastroDeFornecedores\obj\Debug\CadastroDeFornecedores.BuscarCNPJForm.resources
+C:\Users\SPEED\Desktop\CadastroDeFornecedoresVS\CadastroDeFornecedores\obj\Debug\WindowsFormsApp1.CadastroForm.resources
