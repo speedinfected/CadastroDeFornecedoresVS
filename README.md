@@ -113,6 +113,7 @@ CREATE TABLE fornecedores (...);
     └── CadastroDeFornecedoresVS/
      ├──CadastroDeFornecedores/
       ├── Services/
+       │   ├── AbstractFactory.cs      # Forcene os Serviços da Aplicação
        │   ├── CNPJService.cs          # Consulta CNPJ via API
        │   ├── FornecedorService.cs    # Lógica de negócios
        │   ├── Logger.cs               # Registro de logs
