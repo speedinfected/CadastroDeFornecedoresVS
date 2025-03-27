@@ -119,13 +119,14 @@ CREATE TABLE fornecedores (...);
       ├── Validators/
        │   ├── CNPJValidator.cs        # Validação de CNPJ
        │   ├── CEPValidator.cs         # Validação de CEP
-       │   └── ...                     # Outros validadores
+       │   └── EmailValidator          # Validação de Email
+       │   └── EstadoValidator         # Validação de Estado
       ├── Database/    
-      ├── DatabaseSingleton.cs    # Conexão única com MySQL
-      └── ScriptSQL.sql           # Script do banco
-      MainForm.cs             # Listagem de fornecedores
-      CadastroForm.cs         # Formulário de cadastro
-      BuscarCNPJForm.cs       # Consulta de CNPJ
+       ├── DatabaseSingleton.cs    # Conexão única com MySQL
+       └── ScriptSQL.sql           # Script do banco
+     - MainForm.cs             # Listagem de fornecedores
+     - CadastroForm.cs         # Formulário de cadastro
+     - BuscarCNPJForm.cs       # Consulta de CNPJ
 
    ---
    ## 🚀 Execução
