@@ -3,19 +3,55 @@
   "WorkspaceRootPath": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|c:\\users\\speed\\desktop\\cadastrodefornecedoresvs\\cadastrodefornecedores\\validators\\estadovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|solutionrelative:validators\\estadovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|c:\\users\\speed\\desktop\\cadastrodefornecedoresvs\\cadastrodefornecedores\\validators\\emailvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|solutionrelative:validators\\emailvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|c:\\users\\speed\\desktop\\cadastrodefornecedoresvs\\cadastrodefornecedores\\validators\\cnpjvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|solutionrelative:validators\\cnpjvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|c:\\users\\speed\\desktop\\cadastrodefornecedoresvs\\cadastrodefornecedores\\database\\databasesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|solutionrelative:database\\databasesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|c:\\users\\speed\\desktop\\cadastrodefornecedoresvs\\cadastrodefornecedores\\services\\fornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|solutionrelative:services\\fornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|c:\\users\\speed\\desktop\\cadastrodefornecedoresvs\\cadastrodefornecedores\\services\\abstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|solutionrelative:services\\abstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|c:\\users\\speed\\desktop\\cadastrodefornecedoresvs\\cadastrodefornecedores\\services\\cnpjservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|solutionrelative:services\\cnpjservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|c:\\users\\speed\\desktop\\cadastrodefornecedoresvs\\cadastrodefornecedores\\database\\scriptsql.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|solutionrelative:database\\scriptsql.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|c:\\users\\speed\\desktop\\cadastrodefornecedoresvs\\cadastrodefornecedores\\services\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|solutionrelative:services\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|c:\\users\\speed\\desktop\\cadastrodefornecedoresvs\\cadastrodefornecedores\\buscarcnpjform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|solutionrelative:buscarcnpjform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|c:\\users\\speed\\desktop\\cadastrodefornecedoresvs\\cadastrodefornecedores\\cadastroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\cadastroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|solutionrelative:cadastroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|c:\\users\\speed\\desktop\\cadastrodefornecedoresvs\\cadastrodefornecedores\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|c:\\users\\speed\\desktop\\cadastrodefornecedoresvs\\cadastrodefornecedores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A731E2F5-B9F8-41D1-AD74-5C3B42BB1FD3}|CadastroDeFornecedores.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +70,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "EstadoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Validators\\EstadoValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\EstadoValidator.cs",
+              "ToolTip": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Validators\\EstadoValidator.cs",
+              "RelativeToolTip": "Validators\\EstadoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T03:35:39.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailValidator.cs",
+              "DocumentMoniker": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Validators\\EmailValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\EmailValidator.cs",
+              "ToolTip": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Validators\\EmailValidator.cs",
+              "RelativeToolTip": "Validators\\EmailValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T03:35:18.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CNPJValidator.cs",
+              "DocumentMoniker": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Validators\\CNPJValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\CNPJValidator.cs",
+              "ToolTip": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Validators\\CNPJValidator.cs",
+              "RelativeToolTip": "Validators\\CNPJValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T03:34:29.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FornecedorService.cs",
+              "DocumentMoniker": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Services\\FornecedorService.cs",
+              "RelativeDocumentMoniker": "Services\\FornecedorService.cs",
+              "ToolTip": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Services\\FornecedorService.cs",
+              "RelativeToolTip": "Services\\FornecedorService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T03:32:33.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CNPJService.cs",
+              "DocumentMoniker": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Services\\CNPJService.cs",
+              "RelativeDocumentMoniker": "Services\\CNPJService.cs",
+              "ToolTip": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Services\\CNPJService.cs",
+              "RelativeToolTip": "Services\\CNPJService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T03:30:51.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AbstractFactory.cs",
+              "DocumentMoniker": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Services\\AbstractFactory.cs",
+              "RelativeDocumentMoniker": "Services\\AbstractFactory.cs",
+              "ToolTip": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Services\\AbstractFactory.cs",
+              "RelativeToolTip": "Services\\AbstractFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T03:28:44.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ScriptSQL.sql",
+              "DocumentMoniker": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Database\\ScriptSQL.sql",
+              "RelativeDocumentMoniker": "Database\\ScriptSQL.sql",
+              "ToolTip": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Database\\ScriptSQL.sql",
+              "RelativeToolTip": "Database\\ScriptSQL.sql",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-27T03:27:54.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Services\\Logger.cs",
+              "RelativeDocumentMoniker": "Services\\Logger.cs",
+              "ToolTip": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Services\\Logger.cs",
+              "RelativeToolTip": "Services\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T03:26:52.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseSingleton.cs",
+              "DocumentMoniker": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Database\\DatabaseSingleton.cs",
+              "RelativeDocumentMoniker": "Database\\DatabaseSingleton.cs",
+              "ToolTip": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Database\\DatabaseSingleton.cs",
+              "RelativeToolTip": "Database\\DatabaseSingleton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T03:23:00.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "BuscarCNPJForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\BuscarCNPJForm.cs",
               "RelativeDocumentMoniker": "BuscarCNPJForm.cs",
@@ -46,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "CadastroForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\CadastroForm.cs",
               "RelativeDocumentMoniker": "CadastroForm.cs",
@@ -58,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -71,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\SPEED\\Desktop\\CadastroDeFornecedoresVS\\CadastroDeFornecedores\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",

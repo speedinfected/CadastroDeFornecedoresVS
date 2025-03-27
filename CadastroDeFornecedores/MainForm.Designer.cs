@@ -28,12 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.dataGridViewFornecedores = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFornecedores)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dataGridViewFornecedores
+            // 
+            this.dataGridViewFornecedores.BackgroundColor = System.Drawing.SystemColors.ControlLight;
+            this.dataGridViewFornecedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewFornecedores.Location = new System.Drawing.Point(12, 64);
+            this.dataGridViewFornecedores.Name = "dataGridViewFornecedores";
+            this.dataGridViewFornecedores.Size = new System.Drawing.Size(1010, 226);
+            this.dataGridViewFornecedores.TabIndex = 0;
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "MainForm";
+            this.ClientSize = new System.Drawing.Size(1034, 546);
+            this.Controls.Add(this.dataGridViewFornecedores);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Cadastrar Fornecedores";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFornecedores)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView dataGridViewFornecedores;
     }
 }
