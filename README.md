@@ -110,22 +110,22 @@ CREATE TABLE fornecedores (...);
     ---
  ## 📦 Estrutura do Código
 
-    CadastroFornecedores/
-    ├── Services/
-     │   ├── CNPJService.cs          # Consulta CNPJ via API
-     │   ├── FornecedorService.cs    # Lógica de negócios
-     │   ├── Logger.cs               # Registro de logs
-    ├── Validators/
-     │   ├── CNPJValidator.cs        # Validação de CNPJ
-     │   ├── CEPValidator.cs         # Validação de CEP
-     │   └── ...                     # Outros validadores
-    ├── Forms/
-     │   ├── MainForm.cs             # Listagem de fornecedores
-     │   ├── CadastroForm.cs         # Formulário de cadastro
-     │   └── BuscarCNPJForm.cs       # Consulta de CNPJ
-    └── Database/
+   └── CadastroDeFornecedoresVS/
+    ├──CadastroDeFornecedores/
+     ├── Services/
+      │   ├── CNPJService.cs          # Consulta CNPJ via API
+      │   ├── FornecedorService.cs    # Lógica de negócios
+      │   ├── Logger.cs               # Registro de logs
+     ├── Validators/
+      │   ├── CNPJValidator.cs        # Validação de CNPJ
+      │   ├── CEPValidator.cs         # Validação de CEP
+      │   └── ...                     # Outros validadores
+     ├── Database/    
      ├── DatabaseSingleton.cs    # Conexão única com MySQL
      └── ScriptSQL.sql           # Script do banco
+     MainForm.cs             # Listagem de fornecedores
+     CadastroForm.cs         # Formulário de cadastro
+     BuscarCNPJForm.cs       # Consulta de CNPJ
 
    ---
    ## 🚀 Execução

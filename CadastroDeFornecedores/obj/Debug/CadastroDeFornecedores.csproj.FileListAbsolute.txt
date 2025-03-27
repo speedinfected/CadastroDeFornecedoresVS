@@ -1,0 +1,4 @@
+C:\Users\SPEED\Desktop\CadastroDeFornecedoresVS\CadastroDeFornecedores\obj\Debug\CadastroDeFornecedores.csproj.AssemblyReference.cache
+C:\Users\SPEED\Desktop\CadastroDeFornecedoresVS\CadastroDeFornecedores\obj\Debug\CadastroDeFornecedores.Properties.Resources.resources
+C:\Users\SPEED\Desktop\CadastroDeFornecedoresVS\CadastroDeFornecedores\obj\Debug\CadastroDeFornecedores.csproj.GenerateResource.cache
+C:\Users\SPEED\Desktop\CadastroDeFornecedoresVS\CadastroDeFornecedores\obj\Debug\CadastroDeFornecedores.csproj.CoreCompileInputs.cache
