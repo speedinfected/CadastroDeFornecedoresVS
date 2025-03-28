@@ -153,6 +153,6 @@ CREATE TABLE fornecedores (...);
 
    - Limitações da API: A ReceitaWS pode recusar consultas frequentes.
     
-### DEPENDÊNCIAS IMPORTANTE NOVAMENTE!
+### DEPENDÊNCIAS! IMPORTANTE NOVAMENTE!
 ## - Pacotes NuGet: `MySql.Data`, `Newtonsoft.Json`
 ## - API Externa: ReceitaWS (sem chave, mas com limite de 3 consultas/minuto)
