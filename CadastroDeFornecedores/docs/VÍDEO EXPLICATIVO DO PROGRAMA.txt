@@ -1,2 +1,2 @@
-Coloquei o vídeo como não listado no youtube, o link está abaixo e também na documentação do Readme do Projeto:
+Infelizmente o GitHub recusou o vídeo após várias tentativas mesmo estando com apenas 40mb, então coloquei o vídeo como não listado no youtube, o link está abaixo e também na documentação do Readme do Projeto:
 https://youtu.be/of3azRc7EUM
