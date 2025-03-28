@@ -13,7 +13,12 @@ Aplicação Windows Forms em C# (.NET Framework) para gerenciamento de fornecedo
   - `Newtonsoft.Json` (NuGet)  
 
 ---
+## 🎥 Vídeo Demonstrativo
 
+Clique na imagem abaixo para assistir ao vídeo no YouTube ou entre na Pasta /docs para mais informações:
+
+[![Demonstração do Sistema - Cadastro de Fornecedores](https://img.youtube.com/vi/of3azRc7EUM/maxresdefault.jpg)](https://www.youtube.com/watch?v=of3azRc7EUM "Assista ao vídeo")
+---
 ## 🛠️ Configuração  
 
 ### 1. Banco de Dados  
