@@ -61,7 +61,7 @@ namespace CadastroDeFornecedores
             catch (Exception ex)
             {
                 Logger.Log($"Erro inesperado: {ex.Message}\nStack Trace: {ex.StackTrace}", "ERRO");
-                MessageBox.Show("Ocorreu um erro inesperado ao consultar o CNPJ");
+                MessageBox.Show("Você fez 3 requisições simultâneas, tente novamente mais tarde");
             }
             finally
             {
