@@ -13,7 +13,12 @@ Aplicação Windows Forms em C# (.NET Framework) para gerenciamento de fornecedo
   - `Newtonsoft.Json` (NuGet)  
 
 ---
+## 🎥 Vídeo Demonstrativo
 
+Clique na imagem abaixo para assistir ao vídeo no YouTube ou entre na Pasta /docs para mais informações:
+
+[![Demonstração do Sistema - Cadastro de Fornecedores](https://img.youtube.com/vi/of3azRc7EUM/maxresdefault.jpg)](https://www.youtube.com/watch?v=of3azRc7EUM "Assista ao vídeo")
+---
 ## 🛠️ Configuração  
 
 ### 1. Banco de Dados  
@@ -24,11 +29,13 @@ USE cadastro_fornecedores;
 CREATE TABLE fornecedores (...);  
  -- Ver arquivo completo no repositório (ScriptSQL.sql)
 
-### 2. Connection String
+## 2. Connection String => EXTREMA IMPORTÂNCIA
 
  - Ajuste em DatabaseSingleton.cs se necessário: <br>
 
- - private readonly string _connectionString = "Server=localhost;Database=cadastro_fornecedores;Uid=root;Pwd=;";
+       private readonly string _connectionString = "Server=localhost;Database=cadastro_fornecedores;Uid=root;Pwd=";
+   -SE VOCÊ TIVER UMA SENHA NO SEU BANCO DE DADOS DEVE ALTERAR ESSA LINHA NO SCRIPT `DatabaseSingleton.cs`
+
 
 ### 3. API de CNPJ
 
@@ -148,6 +155,6 @@ CREATE TABLE fornecedores (...);
 
    - Limitações da API: A ReceitaWS pode recusar consultas frequentes.
     
-### DEPENDÊNCIAS IMPORTANTE NOVAMENTE!
+### DEPENDÊNCIAS! IMPORTANTE NOVAMENTE!
 ## - Pacotes NuGet: `MySql.Data`, `Newtonsoft.Json`
 ## - API Externa: ReceitaWS (sem chave, mas com limite de 3 consultas/minuto)
