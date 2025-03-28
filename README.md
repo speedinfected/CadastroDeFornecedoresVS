@@ -29,11 +29,13 @@ USE cadastro_fornecedores;
 CREATE TABLE fornecedores (...);  
  -- Ver arquivo completo no repositório (ScriptSQL.sql)
 
-### 2. Connection String
+## 2. Connection String => EXTREMA IMPORTÂNCIA
 
  - Ajuste em DatabaseSingleton.cs se necessário: <br>
 
- - private readonly string _connectionString = "Server=localhost;Database=cadastro_fornecedores;Uid=root;Pwd=;";
+       private readonly string _connectionString = "Server=localhost;Database=cadastro_fornecedores;Uid=root;Pwd=";
+   -SE VOCÊ TIVER UMA SENHA NO SEU BANCO DE DADOS DEVE ALTERAR ESSA LINHA NO SCRIPT `DatabaseSingleton.cs`
+
 
 ### 3. API de CNPJ
 
